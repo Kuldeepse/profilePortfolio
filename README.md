@@ -15,6 +15,13 @@ This repository is a **public project showcase**, not the source-code repository
 | **Cognitwist AI** | Career intelligence, job discovery, role matching and AI-assisted CV workflows | Product development and UX improvements ongoing | [Website](https://cognitwistai.duckdns.org/career) |
 | **MOTWise** | MOT and vehicle-servicing journeys, responsive UX, integrations and payment workflows | Product development and release validation ongoing; live charging is not represented as enabled | [Website](https://motwiseai.duckdns.org/) |
 
+## Detailed Project Pages
+
+- [Alyntara AI Agent](projects/alyntara-ai-agent.md)
+- [Alyntara Digital Twin](projects/alyntara-digital-twin.md)
+- [Cognitwist AI](projects/cognitwist-ai.md)
+- [MOTWise](projects/motwise.md)
+
 ## What I Work On
 
 - **Agents and LLMs:** prompting, tool calling, workflow orchestration, multimodal interaction and evaluation.
@@ -39,11 +46,16 @@ These are enterprise delivery outcomes, not claims that the independent projects
 
 ## Portfolio Documentation
 
-- [Architecture & technical design](architecture) — conceptual component diagrams and implementation status.
-- [Screenshots & demonstrations](screenshots) — public demonstration index and evidence requirements; no verified images published yet.
+- [Architecture & technical design](architecture/README.md) — conceptual component diagrams and implementation status.
+- [Screenshots & demonstrations](screenshots/README.md) — public demonstration index and evidence requirements; no verified images published yet.
 - [Testing & evaluation](test-evidence) — current engineering activity, known gaps and reproducible release-evidence criteria.
 
 Project websites are destinations, not proof of end-to-end availability. Private source repositories require access permission. The architecture diagrams are conceptual and the test register does **not** assert a passing production release.
+
+## Delivery Documentation
+
+- [Product development approach](docs/product-development.md)
+- [Testing approach](docs/testing-approach.md)
 
 ## Connect
 
