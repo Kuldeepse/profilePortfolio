@@ -1,1 +1,18 @@
+# Screenshots & Demonstrations
 
+This index will contain **real, sanitised** screenshots and short demonstrations. No imagery has been added or verified here yet.
+
+| Product | Project link | Evidence status |
+| --- | --- | --- |
+| Alyntara AI Agent | [Private repository](https://github.com/Alyntara/Alyntara-AI-Agent) | Live public demonstration not verified |
+| Alyntara Digital Twin | [Private repository](https://github.com/Alyntara/Alyntara-Digital-Twin) | Previously shared public prototype was reported unavailable |
+| Cognitwist AI | [Website](https://cognitwistai.duckdns.org/career) | Screenshots pending capture and review |
+| MOTWise | [Website](https://motwiseai.duckdns.org/) | Screenshots pending capture and review |
+
+## Publication requirements
+
+Only publish captured application states that correspond to implemented functionality. Include product/version, capture date, environment, user journey and known limitations. Remove personal data, secrets and private/customer information. Do not pass off mock-ups as implemented features.
+
+**Current status: documentation prepared; screenshots and demonstrations not yet published.**
+
+[Back to portfolio](README.md)
