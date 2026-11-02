@@ -1,14 +1,24 @@
-# MOTWise
+# MOTWise — Vehicle Service Product Case Study
 
-**Status:** In development and release validation.
+**Product:** Digital MOT and vehicle-servicing customer journeys. **Stage:** Development and owner review.
 
-## Purpose
-Digital platform for UK MOT and vehicle-servicing journeys, responsive UX, bookings, services and payment integrations.
+## Product opportunity
+Simplify discovery of MOT/servicing options, service selection, booking and follow-up while keeping pricing, payments and customer actions transparent.
 
-## Product and technical focus
-Service discovery, customer journeys, third-party integration, payment provider abstraction, release testing and operational readiness.
+## Product and engineering focus
+- Responsive service discovery and booking journeys.
+- Integration boundaries for providers and transactional services.
+- Payment-provider abstraction, test-mode Stripe verification and explicit controls preventing premature real charges.
+- Testable acceptance criteria for page flows, validation, errors and mobile usability.
+- Preview deployments, release traceability and owner sign-off.
 
-## Current limitations
-Latest production UI and end-to-end payment behaviour have not been validated in this public portfolio. Production charging remains off pending explicit approval.
+## Delivery history and release decisions
+Project discussions refer to a controlled UI review branch, iterative review runs, and payment-verification changes. A prior successful CI validation for one revision does not prove that the latest intended interface is deployed or accepted.
 
-[Website](https://motwiseai.duckdns.org/) · [Demonstrations](../screenshots/README.md) · [Test evidence](../test-evidence/README.md)
+## Risks and remaining acceptance
+The live UI has previously been reported as not reflecting the intended release. Full responsive UI review, end-to-end service journeys, security checks and test-mode payment evidence remain to be demonstrated. **Production charging is not claimed enabled.**
+
+## Metrics to validate
+Task completion, booking funnel drop-off, payment failure handling, responsive UI defects, error recovery and customer support readiness. No fabricated outcomes are presented.
+
+[Project website](https://motwiseai.duckdns.org/) · [Demonstration index](../screenshots/README.md) · [Test approach](../docs/testing-approach.md) · [Portfolio](../README.md)
