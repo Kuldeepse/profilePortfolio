@@ -1,0 +1,55 @@
+# Architecture & Technical Design
+
+A public, non-confidential architectural overview. Diagrams below are **conceptual** and do not prove that all components are implemented or production-ready.
+
+## Alyntara AI Agent
+
+Multimodal assistant exploring LLM integration, voice interaction, tool calling, APIs, and human-supervised automation.
+
+```mermaid
+flowchart TD
+ A[User and voice input] --> B[Conversation controller]
+ B --> C[LLM integration]
+ B --> D[Tool and API adapters]
+ D --> E{Sensitive action?}
+ E -->|Yes| F[Human approval]
+ E -->|No| G[Permitted execution]
+ F --> G
+ B --> H[Evaluation and logs]
+ G --> H
+```
+
+**Current challenges:** multilingual voice stability, turn-taking, stop-command reliability and end-to-end validation.
+
+## Alyntara Digital Twin
+
+Task orchestration with persistent workflow state, app adapter abstractions and approval checkpoints.
+
+```mermaid
+flowchart TD
+ A[User request] --> B[Task orchestration]
+ B <--> C[(Persistent state)]
+ B --> D[Application adapters]
+ D --> E[External APIs]
+ B --> F{Approval required?}
+ F -->|Yes| G[Human reviewer]
+ F -->|No| H[Continue workflow]
+ G --> H
+ H --> I[Audit trail]
+```
+
+**Implementation maturity:** foundational task lifecycle, persistence, adapter registry and approval state have been developed. Complete live external integrations and public end-to-end demonstration remain unverified.
+
+## Architecture decisions and evaluation
+
+| Area | Product consideration | Validation needed |
+| --- | --- | --- |
+| Task persistence | Resume multistep work reliably | Restart and idempotency tests |
+| Provider adapters | Isolate enterprise integration changes | Mock and live API tests |
+| Human approvals | Prevent unreviewed sensitive actions | Approve, reject and replay scenarios |
+| Identity and secrets | Protect user access and credentials | Authorization and token-handling review |
+| Monitoring | Explain failures and runtime behaviour | Tracing, errors and latency data |
+
+Source repositories: [AI Agent (private)](https://github.com/Alyntara/Alyntara-AI-Agent) · [Digital Twin (private)](https://github.com/Alyntara/Alyntara-Digital-Twin).
+
+[Back to portfolio](../README.md)
