@@ -15,6 +15,15 @@ This repository is a **public project showcase**, not the source-code repository
 | **Cognitwist AI** | Career intelligence, job discovery, role matching and AI-assisted CV workflows | Product development and UX improvements ongoing | [Website](https://cognitwistai.duckdns.org/career) |
 | **MOTWise** | MOT and vehicle-servicing journeys, responsive UX, integrations and payment workflows | Product development and release validation ongoing; live charging is not represented as enabled | [Website](https://motwiseai.duckdns.org/) |
 
+## GitHub Projects — Delivery & Features
+
+The portfolio is organised across two public GitHub Projects. Items are **planning and validation tasks**; inclusion does not mean implemented or released.
+
+- **[Delivery Roadmap — Project #1](https://github.com/users/Kuldeepse/projects/1):** [roadmap issues #6–#12](https://github.com/Kuldeepse/profilePortfolio/issues?q=is%3Aissue+ROADMAP) covering Alyntara, Digital Twin, CogniTwist, MOTWise, TransitLogic, Portfolio Intelligence, Enterprise Adapters and PERC Vault.
+- **[Delivery Features — Project #2](https://github.com/users/Kuldeepse/projects/2):** [feature issues #13–#18](https://github.com/Kuldeepse/profilePortfolio/issues?q=is%3Aissue+FEATURE) covering tool execution, workflow persistence, search relevance, safe payments, human control and evidence.
+
+Source framing: **NextGen Portfolio 2046 v12.1 continuity, dated 18 October 2026**. The original archive includes financial and licensing assumptions and historic target dates; those are not live financial outcomes or current accepted commitments. Public tasks omit proprietary or unverified details.
+
 ## Detailed Project Pages
 
 - [Alyntara AI Agent](projects/alyntara-ai-agent.md)
