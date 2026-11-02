@@ -37,9 +37,13 @@ I aim to make decisions based on observable behaviour: whether a user journey wo
 
 These are enterprise delivery outcomes, not claims that the independent projects have reached equivalent production scale.
 
-## Evidence and Demonstrations
+## Portfolio Documentation
 
-The public URLs above are project destinations, not independently verified guarantees of live end-to-end functionality. Some GitHub source repositories are private and require access permissions. Public architecture notes, screenshots and test reports will be added only when reviewed for accuracy and confidential information.
+- [Architecture & technical design](architecture) — conceptual component diagrams and implementation status.
+- [Screenshots & demonstrations](screenshots) — public demonstration index and evidence requirements; no verified images published yet.
+- [Testing & evaluation](test-evidence) — current engineering activity, known gaps and reproducible release-evidence criteria.
+
+Project websites are destinations, not proof of end-to-end availability. Private source repositories require access permission. The architecture diagrams are conceptual and the test register does **not** assert a passing production release.
 
 ## Connect
 
