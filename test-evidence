@@ -1,1 +1,29 @@
+# Testing, Evaluation & Release Evidence
 
+This is a **testing and evaluation evidence register**, not a claim that any initiative has completed production validation.
+
+| Product | Known engineering/testing activity | Unverified or blocked evidence |
+| --- | --- | --- |
+| Alyntara AI Agent | Voice, multilingual input, turn-taking, stop commands, API interactions, release-candidate and regression checks | Complete latest-SHA test run, reliable voice results, security/NFR gates and end-to-end demonstration |
+| Alyntara Digital Twin | Focused task lifecycle, persistence, adapter and approval-state tests | Full regression suite, live external integrations, authorization checks and reachable demo |
+| Cognitwist AI | Job discovery quality, role matching, UX and data source approaches under improvement | Reproducible relevance evaluation, integration tests and latest release acceptance |
+| MOTWise | UI reviews, payment abstraction and subscription verification activities | Verified latest-SHA UI, end-to-end test-mode payments, security and owner acceptance |
+
+Known risks remain: voice stability, unverified Digital Twin live integrations and MOTWise production charging, which must stay off pending explicit approval.
+
+## Minimum evidence for a completed test run
+
+- **Source:** repository, full commit SHA, component and release version.
+- **Context:** UTC execution date, environment, configuration and synthetic test inputs.
+- **Procedure:** commands, scenarios, acceptance thresholds and scope.
+- **Results:** explicit passed, failed, blocked and not-run counts.
+- **Proof:** CI URL, sanitised logs, trace/report and known defects.
+- **Decision:** release gate and owner acceptance, if applicable.
+
+## Proposed evaluation methodology
+
+Define baseline scenarios → establish functional and safety criteria → run reproducible tests → review failures and response quality → re-run exact scenarios → report readiness for the exact commit.
+
+No numerical test pass rate, model quality metric or production-readiness claim is made without published verification.
+
+[Back to portfolio](README.md)
