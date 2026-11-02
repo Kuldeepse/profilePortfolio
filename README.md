@@ -22,6 +22,10 @@ This repository is a **public project showcase**, not the source-code repository
 - [Cognitwist AI](projects/cognitwist-ai.md)
 - [MOTWise](projects/motwise.md)
 
+## Runnable Technical Example
+
+**[Human-approved workflow state machine](examples/approval-workflow/README.md)** — a small, standard-library Python demonstration of approval, rejection, invalid state transitions and unit tests. This is a standalone educational example, **not a claim of a production backend or working Alyntara integration**.
+
 ## What I Work On
 
 - **Agents and LLMs:** prompting, tool calling, workflow orchestration, multimodal interaction and evaluation.
